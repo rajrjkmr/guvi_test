@@ -1,7 +1,5 @@
 data=input()
-if data>0:
-	print "Positive"
-elif data==0:
-	print "Zero"
-else:
-	print "Negative"
+if data%2==0 and data<=100000:
+	print "Even"
+elif data!=0 and data<=100000:
+	print "Odd"
