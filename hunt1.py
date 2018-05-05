@@ -10,4 +10,5 @@ for x in d:
 			pass
 		else:
 			u.append(x)
-print sorted(u)
+for x in sorted(u):
+	print x,
